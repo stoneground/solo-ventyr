@@ -1,0 +1,91 @@
+header {
+    
+    /* Randig helhet */
+    background: #2a1135;
+    background-image:
+      linear-gradient(90deg, transparent 50%, #190b20 50%);
+    background-size: 52px;
+    box-shadow: inset 0 0 100px #000;
+    margin-left: 2%;
+    text-align: center;
+    padding: 2em 2em 3em;
+    position: relative;
+   
+    /* Header */
+    after {
+      background-image:
+        radial-gradient(#07050a 40%, transparent 41%),
+        radial-gradient(#07050a 40%, transparent 41%);
+      background-size: 104px 104px;
+      background-position: 0 0, 52px 0;
+  
+      height: 104px;
+      bottom: -52px;
+      z-index: -1;
+    }
+  }
+  
+  /* Personlig design */
+  
+  body {
+    background: #090917;
+    font: 16px/1.5 'Old Standard TT', serif;
+  }
+  
+  h1 {
+    color: #fff;
+    font: normal 52px 'Emilys Candy',serif;
+    text-shadow: 3px 3px 0 #000;
+    margin: 0.5em 0 0;
+  } 
+
+
+  
+  .card {
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  margin: 2rem;
+  padding: 2rem;
+  color: white;
+
+  font-size: 1.5rem;
+  }
+  .navContainer {
+  border: 4px solid purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar1 {
+  width: 70vw;
+  height: 50px;
+  border: 4px dashed pink;
+  background: purple;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+a {
+  color: white;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 52px;
+    width: 100%;
+}
+footer{background:#8e44ad;text-align:center;}
+footer a{color:#fff;text-decoration:none; display:inline-block}
